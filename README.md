@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000)
 - [x] Create Clock component with useState for time
 - [x] Setup useEffect to update time every second
 - [x] Format time as HH:MM:SS
-- [ ] Display AM/PM
+- [x] Display AM/PM
 - [x] Create rounded border frame for clock
 - [ ] Add clock icon
 - [x] Display date

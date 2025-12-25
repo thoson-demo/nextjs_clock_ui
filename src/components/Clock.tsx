@@ -29,7 +29,9 @@ export default function Clock() {
         <div className="text-6xl font-bold text-on-primary-container">
           {displayTime}
         </div>
-        <div className="text-1xl text-on-primary-container">AM</div>
+        <div className="text-1xl text-on-primary-container">
+          {time.getHours() >= 12 ? "PM" : "AM"}
+        </div>
       </div>
       <Image src="/clock.svg" alt="Clock" width={64} height={64} />
       <div className="text-2xl font-bold text-on-primary-container">
