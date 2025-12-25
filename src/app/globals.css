@@ -4,26 +4,39 @@
   --seed: #63a002;
   --primary: #4c662b;
   --on-primary: #ffffff;
+  --surface: #f9faef;
+  --on-surface: #1a1c16;
+  --primary-container: #cdeda3;
+  --on-primary-container: #354e16;
+  --outline: #75796c;
 }
 
 @theme inline {
   --color-seed: var(--seed);
   --color-primary: var(--primary);
   --color-on-primary: var(--on-primary);
+  --color-surface: var(--surface);
+  --color-on-surface: var(--on-surface);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
+  --color-outline: var(--outline);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --seed: #63a002;
-    --primary: #b1d18a;
-    --on-primary: #1f3701;
-  }
+.dark {
+  --seed: #63a002;
+  --primary: #b1d18a;
+  --on-primary: #1f3701;
+  --surface: #12140e;
+  --on-surface: #e2e3d8;
+  --primary-container: #354e16;
+  --on-primary-container: #cdeda3;
+  --outline: #8f9285;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--primary);
+  color: var(--on-primary);
   font-family: Arial, Helvetica, sans-serif;
 }
