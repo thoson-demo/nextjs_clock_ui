@@ -26,5 +26,5 @@ Open [http://localhost:3000](http://localhost:3000)
 - [x] Create rounded border frame for clock
 - [x] Add clock icon
 - [x] Display date
-- [ ] Style typography and colors
+- [x] Style typography and colors
 - [ ] Center layout responsive
