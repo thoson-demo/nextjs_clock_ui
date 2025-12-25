@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Info
+Build this [UI](https://dribbble.com/shots/25338693-Digital-Clock-Simple-UI) with NextJS framework
+Github Page: [Clock UI](https://thoson-demo.github.io/nextjs_clock_ui/)
+
 ## Getting Started
 
 First, run the development server:
