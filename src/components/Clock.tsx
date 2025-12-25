@@ -4,6 +4,7 @@ import { formatDate, formatTime } from "@/lib/utils";
 import Image from "next/image";
 
 import { useEffect, useState } from "react";
+import ClockIcon from "./icons/ClockIcon";
 
 export default function Clock() {
   const [time, setTime] = useState(new Date());
@@ -33,7 +34,7 @@ export default function Clock() {
           {time.getHours() >= 12 ? "PM" : "AM"}
         </div>
       </div>
-      <Image src="/clock.svg" alt="Clock" width={64} height={64} />
+      <ClockIcon size={64} className="stroke-on-primary-container" />
       <div className="text-2xl font-bold text-on-primary-container">
         {displayDate}
       </div>

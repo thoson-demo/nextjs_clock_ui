@@ -24,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000)
 - [x] Format time as HH:MM:SS
 - [x] Display AM/PM
 - [x] Create rounded border frame for clock
-- [ ] Add clock icon
+- [x] Add clock icon
 - [x] Display date
 - [ ] Style typography and colors
 - [ ] Center layout responsive
